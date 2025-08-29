@@ -4,139 +4,34 @@ body {
     margin: 0;
     padding: 0;
     background: #0d1117; /* dark modern tech background */
-    color: #c9d1d9; /* light gray font color for readability */
+    color: #e0e0e0; /* lighter font for readability */
 }
 
 /* Header / Hero */
 header {
     text-align: center;
     padding: 80px 20px;
-.project-card:hover {
-    transform: translateY(-5px);
-.project-card a {
-    }
-}
-
-    }
-
-    section {
-        width: 90%;
-/* Responsive */
-@media screen and (max-width: 768px) {
-        flex-direction: column;
-        align-items: center;
-    .project-grid {
-a {
-    color: #8b949e;
-}
-    color: #58a6ff;
-
-    background-color: #161b22;
-
-/* Skills List */
-    padding: 20px;
-.skills-list {
-    display: flex;
-footer {
-    text-align: center;
-    flex-wrap: wrap;
-/* Footer */
-    list-style: none;
-    padding: 0;
-
-
-}
-.skills-list li {
-    color: #c9d1d9;
-    background-color: #21262d; /* subtle dark tech background for tags */
-    padding: 8px 15px;
-    border-radius: 5px;
-    font-weight: bold;
-}
-    justify-content: center;
-    gap: 10px;
-}
-a:hover {
-    color: #1f6feb;
-}
-    color: #58a6ff;
-}
-
-    text-decoration: underline;
-    box-shadow: 0 0 20px #58a6ff;
-}
-
-}
-
     background-color: #161b22; /* slightly lighter dark overlay */
 }
 
 header img {
     width: 150px;
-    width: 250px;
-    box-shadow: 0 0 10px rgba(88,166,255,0.3);
-    transition: transform 0.3s, box-shadow 0.3s;
     border-radius: 50%;
-    border: 2px solid #58a6ff; /* techy neon border */
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-}
-    gap: 20px;
-
-.project-card {
-    background-color: #0d1117;
-    justify-content: center;
+    border: 2px solid #58a6ff; /* neon border */
 }
 
 header h1 {
     margin: 20px 0 10px 0;
-.project-grid {
-    display: flex;
-    flex-wrap: wrap;
     font-size: 2.8rem;
-    color: #58a6ff; /* header neon tech color */
+    color: #58a6ff; /* techy neon header */
 }
 
 header p {
-
-/* Project Cards */
     font-size: 1.2rem;
-}
-    color: #8b949e;
-}
-
-/* Buttons */
-a.btn {
-    display: inline-block;
-    padding: 10px 25px;
-    margin-top: 15px;
-    background-color: #58a6ff;
-    color: #0d1117;
-    border-bottom: 2px solid #58a6ff;
-    display: inline-block;
-    padding-bottom: 5px;
-section h2 {
-    color: #58a6ff;
-    font-weight: bold;
-    border-radius: 5px;
-    text-decoration: none;
-
-    transition: 0.3s;
-}
+    color: #a8bfc9;
 }
 
-    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
-a.btn:hover {
-    border-radius: 10px;
-    background-color: #1f6feb;
-    color: #fff;
-    background-color: #161b22; /* dark overlay for readability */
-    max-width: 900px;
-
-    margin: 30px auto;
-    padding: 30px 20px;
-
+/* Section Styling */
 section {
     padding: 30px 20px;
     margin: 30px auto;
@@ -176,17 +71,23 @@ section h2 {
     box-shadow: 0 0 20px #58a6ff;
 }
 
-.project-card a {
-    color: #58a6ff;
-    text-decoration: underline;
+/* Links as Buttons */
+a, .project-card a {
+    display: inline-block;
+    padding: 8px 15px;
+    margin-top: 10px;
+    background-color: #21262d; /* subtle button bg */
+    color: #58a6ff; /* link color */
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
 }
 
-a {
-    color: #58a6ff;
-}
-
-a:hover {
-    color: #1f6feb;
+a:hover, .project-card a:hover {
+    border-bottom: 2px solid #58a6ff; /* underline effect on hover */
+    background-color: #1b1f26;
 }
 
 /* Skills List */
@@ -200,11 +101,11 @@ a:hover {
 }
 
 .skills-list li {
-    background-color: #21262d; /* subtle dark tech background for tags */
+    background-color: #21262d; /* techy dark tag */
     padding: 8px 15px;
     border-radius: 5px;
     font-weight: bold;
-    color: #c9d1d9;
+    color: #e0e0e0;
 }
 
 /* Footer */
@@ -212,7 +113,7 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: #161b22;
-    color: #8b949e;
+    color: #a8bfc9;
 }
 
 /* Responsive */
