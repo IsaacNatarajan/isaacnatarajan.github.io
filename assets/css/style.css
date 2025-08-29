@@ -80,6 +80,25 @@ a, .project-card a {
     display: inline-block;
     padding: 8px 15px;
     margin-top: 10px;
+    background-color: #21262d;
+    color: #58a6ff;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+a:hover, .project-card a:hover {
+    border-bottom: 2px solid #58a6ff;
+    background-color: #1b1f26;
+}
+
+/* Links as Buttons */
+a, .project-card a {
+    display: inline-block;
+    padding: 8px 15px;
+    margin-top: 10px;
     background-color: #21262d; /* subtle button bg */
     color: #58a6ff; /* link color */
     font-weight: bold;
