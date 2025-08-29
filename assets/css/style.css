@@ -15,9 +15,13 @@ header {
 }
 
 header img {
-    width: 150px;
-    border-radius: 50%;
+    width: 150px;           /* size */
+    height: 150px;          /* square */
+    border-radius: 50%;     /* makes it circular */
     border: 2px solid #58a6ff; /* neon border */
+    object-fit: cover;      /* prevents stretching */
+    display: block;
+    margin: 20px auto; 
 }
 
 header h1 {
